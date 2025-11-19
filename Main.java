@@ -315,8 +315,6 @@ public class Main {
         }
     }
 
-    /* =================== AST и вычисления =================== */
-
     private interface Node {
         double evaluate(EvaluationContext context);
         void collectVariables(Set<String> target);
@@ -537,8 +535,6 @@ public class Main {
         }
     }
 
-    /* =================== Контекст переменных =================== */
-
     private static final class EvaluationContext {
         private final Map<String, Double> vars = new HashMap<>();
 
@@ -592,8 +588,6 @@ public class Main {
             }
         }
     }
-
-    /* =================== Исключения =================== */
 
     private static final class ParseException extends Exception {
         ParseException(String message) {
