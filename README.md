@@ -1,4 +1,4 @@
-# SomewhatScinetificCalc
+# SomewhatScientificCalc
 Учебный консольный калькулятор на Java
 
 Умеет:
